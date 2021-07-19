@@ -5,6 +5,9 @@ In this project,we are using python to :
 ### 1. Open satellite imagery in Python 
 ### 2. Read Satellite Image bands
 ### 3. Visualize Images
+Visualising Band 3 (For Full code please refer to the attached code):
+![2021-07-19_17h50_15](https://user-images.githubusercontent.com/62526508/126189294-8653949d-36fa-4971-90f2-5cc7c93146f6.png)
+
 ### 4. Numpy Array Manipulations
 ### 5. Clipping Images to Boundaries
 ### 6: Create Vegetation Index (NDVI)
