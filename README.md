@@ -1,7 +1,7 @@
-# Satellite Imagery Analysis in Python
+# Clustering on Sentinel2 imagery 
 
 In this project,we are using python to : 
-
+<!---
 ### 1. Open satellite imagery in Python 
 ### 2. Read Satellite Image bands
 ### 3. Visualize Images
@@ -15,3 +15,7 @@ Visualising Band 3 (For code please refer to the attached jpynb):
 ### 8: Clustering with KMeans algorithm
 The clustering model generates the following map (For code please refer to the attached jpynb):
 ![2021-07-19_17h45_56](https://user-images.githubusercontent.com/62526508/126188673-4e16ec3a-1303-4b12-b3ba-30192c9081f1.png)
+*/
+
+
+-->
