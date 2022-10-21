@@ -20,16 +20,18 @@ Think of a puzzle, the fastest way to begin is to separate the pieces by color, 
    * Derive statitics on grid 
    * Clipping Images to Boundaries
    * Create Vegetation Index (NDVI)
-  All these tasks are explained in the code attached to this repo. 
+  All these tasks are explained in the code attached to this repo for the following main satellite data
+  <img src="images/satellite.png"/> 
    
 
 ### Clustering Algorithm implementation
   
   This example is based on satellite data with NDVI (normalized difference vegetation index). NDVI is an indicator of vegetation health based on how plants reflect certain ranges of the electromagnetic spectrum. The index ranges from -1 to 1; 1 indicating the best health status of the observed land cover.
+  <img src="images/ndvi.png"/>
   The core concept is to identify k clusters based on the NDVI without having to learn an underlying image to ndvi index mapping. 
   
 ## C. Results
 The clustering model generates the following map with the inputed amount of clusters.
-![2021-07-19_17h45_56](https://user-images.githubusercontent.com/62526508/126188673-4e16ec3a-1303-4b12-b3ba-30192c9081f1.png)
 
+<img src="images/clustering.png"/>
 
