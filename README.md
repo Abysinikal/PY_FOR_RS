@@ -2,7 +2,7 @@
 
 ## A. Problem adressed
 
-The term clustering is used to refer to the act of grouping information, which can be data from customers, products or in this example satellite data.It is the way to group and categorize based on common characteristics. Once we have identified the clusters we can make customized decisions for each of the clusters. 
+&emsp;The term clustering is used to refer to the act of grouping information, which can be data from customers, products or in this example satellite data.It is the way to group and categorize based on common characteristics. Once we have identified the clusters we can make customized decisions for each of the clusters. 
 Think of a puzzle, the fastest way to begin is to separate the pieces by color, shape, and edges.
 
 ## B. Methodology and Implementation
