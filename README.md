@@ -27,12 +27,12 @@ Think of a puzzle, the fastest way to begin is to separate the pieces by color, 
 ### Clustering Algorithm implementation
   
   This example is based on satellite data with NDVI (normalized difference vegetation index). NDVI is an indicator of vegetation health based on how plants reflect certain ranges of the electromagnetic spectrum. The index ranges from -1 to 1; 1 indicating the best health status of the observed land cover.
-  <img src="images/clustering.png"/>
+  <img src="images/clring.png"/>
 
   The core concept is to identify k clusters based on the NDVI without having to learn an underlying image to ndvi index mapping. 
   
 ## C. Results
 The clustering model generates the following map with the inputed amount of clusters.
 
- <img src="images/clustering.png"/> 
+ <img src="images/clring.png"/> 
 
