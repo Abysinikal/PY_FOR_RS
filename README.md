@@ -8,7 +8,7 @@ Think of a puzzle, the fastest way to begin is to separate the pieces by color, 
 ## B. Methodology and Implementation
 
 ### Methodology 
-   k-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster.
+&emsp;k-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster.
 
  
 ### Preprocessing 
@@ -26,12 +26,12 @@ Think of a puzzle, the fastest way to begin is to separate the pieces by color, 
 
 ### Clustering Algorithm implementation
   
-  This example is based on satellite data with NDVI (normalized difference vegetation index). NDVI is an indicator of vegetation health based on how plants reflect certain ranges of the electromagnetic spectrum. The index ranges from -1 to 1; 1 indicating the best health status of the observed land cover.
+ &emsp;This example is based on satellite data with NDVI (normalized difference vegetation index). NDVI is an indicator of vegetation health based on how plants reflect certain ranges of the electromagnetic spectrum. The index ranges from -1 to 1; 1 indicating the best health status of the observed land cover.
   <img src="images/ndvi.png"/>
 
-  The core concept is to identify k clusters based on the NDVI without having to learn an underlying image to ndvi index mapping. 
+ &emsp;The core concept is to identify k clusters based on the NDVI without having to learn an underlying image to ndvi index mapping. 
   
 ## C. Results
-The clustering model generates the following map with the inputed amount of clusters based on ndvi index. Places with healthy vegetation are seen in the purple areas of the image. gray areas indicate those with no live green biomass mainly implying urban concentration.
+&emsp;The clustering model generates the following map with the inputed amount of clusters based on ndvi index. Places with healthy vegetation are seen in the purple areas of the image. gray areas indicate those with no live green biomass mainly implying urban concentration.
 
  <img src="images/clring.png"/> 
