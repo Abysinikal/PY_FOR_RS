@@ -7,11 +7,11 @@ Think of a puzzle, the fastest way to begin is to separate the pieces by color, 
 
 ## B. Methodology and Implementation
 
-### Methodology 
+### B.1. Methodology 
 &emsp;k-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster.
 
  
-### Preprocessing 
+### B.2. Preprocessing 
    Working on satellite image data implies being able to :
    * opening satellite data formats like .tiff
    * reading one or multiple hyperspectral bands
@@ -24,7 +24,7 @@ Think of a puzzle, the fastest way to begin is to separate the pieces by color, 
   <img src="images/satellite.png"/> 
    
 
-### Clustering Algorithm implementation
+### B.3. Clustering Algorithm implementation
   
  &emsp;This example is based on satellite data with NDVI (normalized difference vegetation index). NDVI is an indicator of vegetation health based on how plants reflect certain ranges of the electromagnetic spectrum. The index ranges from -1 to 1; 1 indicating the best health status of the observed land cover.<br>
   <img src="images/ndvi.png"/>
