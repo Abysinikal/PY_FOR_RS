@@ -1,4 +1,4 @@
-# Satellite Image Analysis and Kmeans Clustering 
+#  Unsupervised learning for satellite imagery
 
 ## A. Problem adressed
 
